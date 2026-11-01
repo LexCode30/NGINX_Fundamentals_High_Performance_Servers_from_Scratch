@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://LexCode30.github.io/NGINX_Fundamentals_High_Performance_Servers_from_Scratch/sitemap.xml

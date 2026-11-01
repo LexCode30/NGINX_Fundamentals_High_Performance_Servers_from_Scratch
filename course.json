@@ -1,0 +1,338 @@
+{
+  "name": "NGINX Fundamentals High Performance Servers from Scratch",
+  "slug": "NGINX_Fundamentals_High_Performance_Servers_from_Scratch",
+  "url": "https://LexCode30.github.io/NGINX_Fundamentals_High_Performance_Servers_from_Scratch/",
+  "category": "cybersecurity",
+  "generator": "7.0",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Overview",
+      "page": "s1.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Introduction",
+          "id": "1BBuaHmorBBbmlpI02tG1vytqsxHp5HEj",
+          "anchor": "v-1BBuaHmorBBbmlpI02tG1vytqsxHp5HEj",
+          "href": "s1.html#v-1BBuaHmorBBbmlpI02tG1vytqsxHp5HEj"
+        },
+        {
+          "number": 2,
+          "title": "About NGINX",
+          "id": "1iwTxZBw_MJnHRHpJYhj4bKLiSnciSVlI",
+          "anchor": "v-1iwTxZBw_MJnHRHpJYhj4bKLiSnciSVlI",
+          "href": "s1.html#v-1iwTxZBw_MJnHRHpJYhj4bKLiSnciSVlI"
+        },
+        {
+          "number": 3,
+          "title": "NGINX vs Apache",
+          "id": "1dT0RPzb9QjLviV5LEzHPGhchStFx-DBF",
+          "anchor": "v-1dT0RPzb9QjLviV5LEzHPGhchStFx-DBF",
+          "href": "s1.html#v-1dT0RPzb9QjLviV5LEzHPGhchStFx-DBF"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Installation",
+      "page": "s2.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Server Overview",
+          "id": "1u21A3UO1kx2FAw6bRCoUgiv3_t1d66kR",
+          "anchor": "v-1u21A3UO1kx2FAw6bRCoUgiv3_t1d66kR",
+          "href": "s2.html#v-1u21A3UO1kx2FAw6bRCoUgiv3_t1d66kR"
+        },
+        {
+          "number": 2,
+          "title": "Installing with a Package Manager",
+          "id": "1danoLZIqDRqOl-mR0fgGeziJ-x81_1q8",
+          "anchor": "v-1danoLZIqDRqOl-mR0fgGeziJ-x81_1q8",
+          "href": "s2.html#v-1danoLZIqDRqOl-mR0fgGeziJ-x81_1q8"
+        },
+        {
+          "number": 3,
+          "title": "Building Nginx from Source & Adding Modules",
+          "id": "1h8WiE7KrBTT8wBJoerymV58z1fe-DKFn",
+          "anchor": "v-1h8WiE7KrBTT8wBJoerymV58z1fe-DKFn",
+          "href": "s2.html#v-1h8WiE7KrBTT8wBJoerymV58z1fe-DKFn"
+        },
+        {
+          "number": 4,
+          "title": "Adding an NGINX Service",
+          "id": "1E2bGNEZ08DOAjr_gGqLJRWAnw009QGLM",
+          "anchor": "v-1E2bGNEZ08DOAjr_gGqLJRWAnw009QGLM",
+          "href": "s2.html#v-1E2bGNEZ08DOAjr_gGqLJRWAnw009QGLM"
+        },
+        {
+          "number": 5,
+          "title": "Nginx for Windows",
+          "id": "1R_6EiYND_bPOyQTDherMth1E-ZTtIr8V",
+          "anchor": "v-1R_6EiYND_bPOyQTDherMth1E-ZTtIr8V",
+          "href": "s2.html#v-1R_6EiYND_bPOyQTDherMth1E-ZTtIr8V"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Configuration",
+      "page": "s3.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Understanding Configuration Terms",
+          "id": "1vxoYQxGibUS34AbTIOUBAY1S2RVu4AGy",
+          "anchor": "v-1vxoYQxGibUS34AbTIOUBAY1S2RVu4AGy",
+          "href": "s3.html#v-1vxoYQxGibUS34AbTIOUBAY1S2RVu4AGy"
+        },
+        {
+          "number": 2,
+          "title": "Creating a Virtual Host",
+          "id": "1fnuF_8bdGdMvWGv4Q9opy5JfVbo6N3ns",
+          "anchor": "v-1fnuF_8bdGdMvWGv4Q9opy5JfVbo6N3ns",
+          "href": "s3.html#v-1fnuF_8bdGdMvWGv4Q9opy5JfVbo6N3ns"
+        },
+        {
+          "number": 3,
+          "title": "Location blocks",
+          "id": "1cle_4Fg1awNHhSTGJtFE5yMTRS6iFaB2",
+          "anchor": "v-1cle_4Fg1awNHhSTGJtFE5yMTRS6iFaB2",
+          "href": "s3.html#v-1cle_4Fg1awNHhSTGJtFE5yMTRS6iFaB2"
+        },
+        {
+          "number": 4,
+          "title": "Variables",
+          "id": "105GDTW-qSrwsrHTA8NudZ-UxLf9IV2i2",
+          "anchor": "v-105GDTW-qSrwsrHTA8NudZ-UxLf9IV2i2",
+          "href": "s3.html#v-105GDTW-qSrwsrHTA8NudZ-UxLf9IV2i2"
+        },
+        {
+          "number": 5,
+          "title": "Rewrites & Redirects",
+          "id": "1fdskBXZ6PtbbCa6Cmg4At8jX3li9yuNo",
+          "anchor": "v-1fdskBXZ6PtbbCa6Cmg4At8jX3li9yuNo",
+          "href": "s3.html#v-1fdskBXZ6PtbbCa6Cmg4At8jX3li9yuNo"
+        },
+        {
+          "number": 6,
+          "title": "Try Files & Named Locations",
+          "id": "1RVAyY2Konj5j48oQ2lnI8J8IhXAXCr2l",
+          "anchor": "v-1RVAyY2Konj5j48oQ2lnI8J8IhXAXCr2l",
+          "href": "s3.html#v-1RVAyY2Konj5j48oQ2lnI8J8IhXAXCr2l"
+        },
+        {
+          "number": 7,
+          "title": "Logging",
+          "id": "1YO2u468o-ftwq1bo0nyjQ1EWRDHD9BdA",
+          "anchor": "v-1YO2u468o-ftwq1bo0nyjQ1EWRDHD9BdA",
+          "href": "s3.html#v-1YO2u468o-ftwq1bo0nyjQ1EWRDHD9BdA"
+        },
+        {
+          "number": 8,
+          "title": "Inheritance & Directive types",
+          "id": "1hCeCgKWPc7XKHszRr3rehx1nS35sIWZC",
+          "anchor": "v-1hCeCgKWPc7XKHszRr3rehx1nS35sIWZC",
+          "href": "s3.html#v-1hCeCgKWPc7XKHszRr3rehx1nS35sIWZC"
+        },
+        {
+          "number": 9,
+          "title": "PHP Processing",
+          "id": "1jTIZ8f7xzlfWy-nulT_NvY1636gnWVt8",
+          "anchor": "v-1jTIZ8f7xzlfWy-nulT_NvY1636gnWVt8",
+          "href": "s3.html#v-1jTIZ8f7xzlfWy-nulT_NvY1636gnWVt8"
+        },
+        {
+          "number": 10,
+          "title": "Worker Processes",
+          "id": "1ogseCv8GWlY6bKC8OWLy0ps5fz7Er_V6",
+          "anchor": "v-1ogseCv8GWlY6bKC8OWLy0ps5fz7Er_V6",
+          "href": "s3.html#v-1ogseCv8GWlY6bKC8OWLy0ps5fz7Er_V6"
+        },
+        {
+          "number": 11,
+          "title": "Buffers & Timeouts",
+          "id": "1YimPZ-lWHE-F5HmWeifyGz-xzAbkUVl8",
+          "anchor": "v-1YimPZ-lWHE-F5HmWeifyGz-xzAbkUVl8",
+          "href": "s3.html#v-1YimPZ-lWHE-F5HmWeifyGz-xzAbkUVl8"
+        },
+        {
+          "number": 12,
+          "title": "Adding Dynamic Modules",
+          "id": "1ZB6I6SMpigGAe7VSEcitdyEDeBN06eCk",
+          "anchor": "v-1ZB6I6SMpigGAe7VSEcitdyEDeBN06eCk",
+          "href": "s3.html#v-1ZB6I6SMpigGAe7VSEcitdyEDeBN06eCk"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Performance",
+      "page": "s4.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Headers & Expires",
+          "id": "1_n947hTxLcmnZUoPEhSREZTVs4zPJvve",
+          "anchor": "v-1_n947hTxLcmnZUoPEhSREZTVs4zPJvve",
+          "href": "s4.html#v-1_n947hTxLcmnZUoPEhSREZTVs4zPJvve"
+        },
+        {
+          "number": 2,
+          "title": "Compressed Responses with gzip",
+          "id": "1kKXvmq-zk93Ofiz3ecL6GNAHSQYwsA8s",
+          "anchor": "v-1kKXvmq-zk93Ofiz3ecL6GNAHSQYwsA8s",
+          "href": "s4.html#v-1kKXvmq-zk93Ofiz3ecL6GNAHSQYwsA8s"
+        },
+        {
+          "number": 3,
+          "title": "FastCGI Cache",
+          "id": "1UepWsu-xsH1c2z6Vo0kebaHTGtBo0b1I",
+          "anchor": "v-1UepWsu-xsH1c2z6Vo0kebaHTGtBo0b1I",
+          "href": "s4.html#v-1UepWsu-xsH1c2z6Vo0kebaHTGtBo0b1I"
+        },
+        {
+          "number": 4,
+          "title": "HTTP2",
+          "id": "1vbpCHf4W1aEX2H46vjWCPAVBFqKlg-ke",
+          "anchor": "v-1vbpCHf4W1aEX2H46vjWCPAVBFqKlg-ke",
+          "href": "s4.html#v-1vbpCHf4W1aEX2H46vjWCPAVBFqKlg-ke"
+        },
+        {
+          "number": 5,
+          "title": "Server Push",
+          "id": "1hlXUG05eKiBXpQaHHy5J4EwolKsM_Yn3",
+          "anchor": "v-1hlXUG05eKiBXpQaHHy5J4EwolKsM_Yn3",
+          "href": "s4.html#v-1hlXUG05eKiBXpQaHHy5J4EwolKsM_Yn3"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Security",
+      "page": "s5.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "HTTPS SSL",
+          "id": "1hk3-y6Fsqt82GVqnV-NGo-LLo0fT7nKy",
+          "anchor": "v-1hk3-y6Fsqt82GVqnV-NGo-LLo0fT7nKy",
+          "href": "s5.html#v-1hk3-y6Fsqt82GVqnV-NGo-LLo0fT7nKy"
+        },
+        {
+          "number": 2,
+          "title": "Rate Limiting",
+          "id": "1BTRrwqpzukq4hsw7G_7i8GwsC3JxysGT",
+          "anchor": "v-1BTRrwqpzukq4hsw7G_7i8GwsC3JxysGT",
+          "href": "s5.html#v-1BTRrwqpzukq4hsw7G_7i8GwsC3JxysGT"
+        },
+        {
+          "number": 3,
+          "title": "Basic Auth",
+          "id": "10Suuqq1-KgOHf_VW26z-woLvvfVVNO2v",
+          "anchor": "v-10Suuqq1-KgOHf_VW26z-woLvvfVVNO2v",
+          "href": "s5.html#v-10Suuqq1-KgOHf_VW26z-woLvvfVVNO2v"
+        },
+        {
+          "number": 4,
+          "title": "Hardening Nginx",
+          "id": "10qbk7r9gDR6snXGXu8Afo1D2TAOMqPBo",
+          "anchor": "v-10qbk7r9gDR6snXGXu8Afo1D2TAOMqPBo",
+          "href": "s5.html#v-10qbk7r9gDR6snXGXu8Afo1D2TAOMqPBo"
+        },
+        {
+          "number": 5,
+          "title": "Let s Encrypt - SSL Certificates",
+          "id": "1ICYrUZgzFZcBr5MDuPSvCDBztHVOjDWh",
+          "anchor": "v-1ICYrUZgzFZcBr5MDuPSvCDBztHVOjDWh",
+          "href": "s5.html#v-1ICYrUZgzFZcBr5MDuPSvCDBztHVOjDWh"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reverse Proxy & Load Balancing",
+      "page": "s6.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Prerequisites",
+          "id": "1dKZBC02e0ilERd7nlybs1WqC2hO45I3Z",
+          "anchor": "v-1dKZBC02e0ilERd7nlybs1WqC2hO45I3Z",
+          "href": "s6.html#v-1dKZBC02e0ilERd7nlybs1WqC2hO45I3Z"
+        },
+        {
+          "number": 2,
+          "title": "Reverse Proxy",
+          "id": "1jaulHUFBtlfCmUIGH5Wm5WG0NkJA1jPt",
+          "anchor": "v-1jaulHUFBtlfCmUIGH5Wm5WG0NkJA1jPt",
+          "href": "s6.html#v-1jaulHUFBtlfCmUIGH5Wm5WG0NkJA1jPt"
+        },
+        {
+          "number": 3,
+          "title": "Load Balancer",
+          "id": "1J4GtKyt_97Mf6d9deHC1R1ltVQ4ewAOC",
+          "anchor": "v-1J4GtKyt_97Mf6d9deHC1R1ltVQ4ewAOC",
+          "href": "s6.html#v-1J4GtKyt_97Mf6d9deHC1R1ltVQ4ewAOC"
+        },
+        {
+          "number": 4,
+          "title": "Load Balancer Options",
+          "id": "1s5TKbayyMHWxJ1G4J_pWUCxZDV4VvrXG",
+          "anchor": "v-1s5TKbayyMHWxJ1G4J_pWUCxZDV4VvrXG",
+          "href": "s6.html#v-1s5TKbayyMHWxJ1G4J_pWUCxZDV4VvrXG"
+        },
+        {
+          "number": 5,
+          "title": "Documentation & Resources",
+          "id": "1q5eSM5SO68YIZQ6mrLmeTHi5NQJx7XS_",
+          "anchor": "v-1q5eSM5SO68YIZQ6mrLmeTHi5NQJx7XS_",
+          "href": "s6.html#v-1q5eSM5SO68YIZQ6mrLmeTHi5NQJx7XS_"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Outro",
+      "page": "s7.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Bonus Lecture Feedback & Stackacademy.tv Courses",
+          "id": "173pD0kgg6fdbfTime2MwwBftUY_-b_iP",
+          "anchor": "v-173pD0kgg6fdbfTime2MwwBftUY_-b_iP",
+          "href": "s7.html#v-173pD0kgg6fdbfTime2MwwBftUY_-b_iP"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Archive",
+      "page": "s8.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Adding an NGINX Init Service",
+          "id": "1qzLvr-Cl0HQNpdq7oJbi93y_4rlc2Zkz",
+          "anchor": "v-1qzLvr-Cl0HQNpdq7oJbi93y_4rlc2Zkz",
+          "href": "s8.html#v-1qzLvr-Cl0HQNpdq7oJbi93y_4rlc2Zkz"
+        },
+        {
+          "number": 2,
+          "title": "GeoIP",
+          "id": "1AKGXWUG4W88NLTINvpChMcJxEaHeJxvS",
+          "anchor": "v-1AKGXWUG4W88NLTINvpChMcJxEaHeJxvS",
+          "href": "s8.html#v-1AKGXWUG4W88NLTINvpChMcJxEaHeJxvS"
+        },
+        {
+          "number": 3,
+          "title": "Video streaming",
+          "id": "1TZv8DUg99n-4rGwy9cups3M_weNeWHXr",
+          "anchor": "v-1TZv8DUg99n-4rGwy9cups3M_weNeWHXr",
+          "href": "s8.html#v-1TZv8DUg99n-4rGwy9cups3M_weNeWHXr"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+# NGINX Fundamentals High Performance Servers from Scratch
+
+1. Overview  [s1.html]
+    001. Introduction  ->  https://drive.google.com/file/d/1BBuaHmorBBbmlpI02tG1vytqsxHp5HEj/preview
+    002. About NGINX  ->  https://drive.google.com/file/d/1iwTxZBw_MJnHRHpJYhj4bKLiSnciSVlI/preview
+    003. NGINX vs Apache  ->  https://drive.google.com/file/d/1dT0RPzb9QjLviV5LEzHPGhchStFx-DBF/preview
+
+2. Installation  [s2.html]
+    001. Server Overview  ->  https://drive.google.com/file/d/1u21A3UO1kx2FAw6bRCoUgiv3_t1d66kR/preview
+    002. Installing with a Package Manager  ->  https://drive.google.com/file/d/1danoLZIqDRqOl-mR0fgGeziJ-x81_1q8/preview
+    003. Building Nginx from Source & Adding Modules  ->  https://drive.google.com/file/d/1h8WiE7KrBTT8wBJoerymV58z1fe-DKFn/preview
+    004. Adding an NGINX Service  ->  https://drive.google.com/file/d/1E2bGNEZ08DOAjr_gGqLJRWAnw009QGLM/preview
+    005. Nginx for Windows  ->  https://drive.google.com/file/d/1R_6EiYND_bPOyQTDherMth1E-ZTtIr8V/preview
+
+3. Configuration  [s3.html]
+    001. Understanding Configuration Terms  ->  https://drive.google.com/file/d/1vxoYQxGibUS34AbTIOUBAY1S2RVu4AGy/preview
+    002. Creating a Virtual Host  ->  https://drive.google.com/file/d/1fnuF_8bdGdMvWGv4Q9opy5JfVbo6N3ns/preview
+    003. Location blocks  ->  https://drive.google.com/file/d/1cle_4Fg1awNHhSTGJtFE5yMTRS6iFaB2/preview
+    004. Variables  ->  https://drive.google.com/file/d/105GDTW-qSrwsrHTA8NudZ-UxLf9IV2i2/preview
+    005. Rewrites & Redirects  ->  https://drive.google.com/file/d/1fdskBXZ6PtbbCa6Cmg4At8jX3li9yuNo/preview
+    006. Try Files & Named Locations  ->  https://drive.google.com/file/d/1RVAyY2Konj5j48oQ2lnI8J8IhXAXCr2l/preview
+    007. Logging  ->  https://drive.google.com/file/d/1YO2u468o-ftwq1bo0nyjQ1EWRDHD9BdA/preview
+    008. Inheritance & Directive types  ->  https://drive.google.com/file/d/1hCeCgKWPc7XKHszRr3rehx1nS35sIWZC/preview
+    009. PHP Processing  ->  https://drive.google.com/file/d/1jTIZ8f7xzlfWy-nulT_NvY1636gnWVt8/preview
+    010. Worker Processes  ->  https://drive.google.com/file/d/1ogseCv8GWlY6bKC8OWLy0ps5fz7Er_V6/preview
+    011. Buffers & Timeouts  ->  https://drive.google.com/file/d/1YimPZ-lWHE-F5HmWeifyGz-xzAbkUVl8/preview
+    012. Adding Dynamic Modules  ->  https://drive.google.com/file/d/1ZB6I6SMpigGAe7VSEcitdyEDeBN06eCk/preview
+
+4. Performance  [s4.html]
+    001. Headers & Expires  ->  https://drive.google.com/file/d/1_n947hTxLcmnZUoPEhSREZTVs4zPJvve/preview
+    002. Compressed Responses with gzip  ->  https://drive.google.com/file/d/1kKXvmq-zk93Ofiz3ecL6GNAHSQYwsA8s/preview
+    003. FastCGI Cache  ->  https://drive.google.com/file/d/1UepWsu-xsH1c2z6Vo0kebaHTGtBo0b1I/preview
+    004. HTTP2  ->  https://drive.google.com/file/d/1vbpCHf4W1aEX2H46vjWCPAVBFqKlg-ke/preview
+    005. Server Push  ->  https://drive.google.com/file/d/1hlXUG05eKiBXpQaHHy5J4EwolKsM_Yn3/preview
+
+5. Security  [s5.html]
+    001. HTTPS SSL  ->  https://drive.google.com/file/d/1hk3-y6Fsqt82GVqnV-NGo-LLo0fT7nKy/preview
+    002. Rate Limiting  ->  https://drive.google.com/file/d/1BTRrwqpzukq4hsw7G_7i8GwsC3JxysGT/preview
+    003. Basic Auth  ->  https://drive.google.com/file/d/10Suuqq1-KgOHf_VW26z-woLvvfVVNO2v/preview
+    004. Hardening Nginx  ->  https://drive.google.com/file/d/10qbk7r9gDR6snXGXu8Afo1D2TAOMqPBo/preview
+    005. Let s Encrypt - SSL Certificates  ->  https://drive.google.com/file/d/1ICYrUZgzFZcBr5MDuPSvCDBztHVOjDWh/preview
+
+6. Reverse Proxy & Load Balancing  [s6.html]
+    001. Prerequisites  ->  https://drive.google.com/file/d/1dKZBC02e0ilERd7nlybs1WqC2hO45I3Z/preview
+    002. Reverse Proxy  ->  https://drive.google.com/file/d/1jaulHUFBtlfCmUIGH5Wm5WG0NkJA1jPt/preview
+    003. Load Balancer  ->  https://drive.google.com/file/d/1J4GtKyt_97Mf6d9deHC1R1ltVQ4ewAOC/preview
+    004. Load Balancer Options  ->  https://drive.google.com/file/d/1s5TKbayyMHWxJ1G4J_pWUCxZDV4VvrXG/preview
+    005. Documentation & Resources  ->  https://drive.google.com/file/d/1q5eSM5SO68YIZQ6mrLmeTHi5NQJx7XS_/preview
+
+7. Outro  [s7.html]
+    001. Bonus Lecture Feedback & Stackacademy.tv Courses  ->  https://drive.google.com/file/d/173pD0kgg6fdbfTime2MwwBftUY_-b_iP/preview
+
+8. Archive  [s8.html]
+    001. Adding an NGINX Init Service  ->  https://drive.google.com/file/d/1qzLvr-Cl0HQNpdq7oJbi93y_4rlc2Zkz/preview
+    002. GeoIP  ->  https://drive.google.com/file/d/1AKGXWUG4W88NLTINvpChMcJxEaHeJxvS/preview
+    003. Video streaming  ->  https://drive.google.com/file/d/1TZv8DUg99n-4rGwy9cups3M_weNeWHXr/preview
